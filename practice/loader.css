@@ -1,0 +1,18 @@
+#outer{
+    width: 100px;
+    height: 100px;
+    border: 10px solid yellow;
+    border-top: 10px solid black;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    animation:loader 0.5s ease-in 0s infinite normal;
+}
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

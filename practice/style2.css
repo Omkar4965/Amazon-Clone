@@ -1,0 +1,66 @@
+/* 
+*{
+    padding: 0px;
+    margin: 0px;
+} */
+h1{
+    text-align: center;
+}
+nav{
+    border: 5px solid rgb(211, 64, 64);
+    background-color: #0f1111;
+    height: 60px;
+    padding-top: 16px;
+    
+}
+a{
+    text-decoration: none;
+}
+#webname{
+    color: rgb(246, 139, 0);
+    font-size: 25px;
+    margin-right: 200px;
+}
+#account{
+    color: white;
+    margin-right: 200px;
+}
+#mycart{
+    color: white;
+    margin-right: 200px;
+}
+#contact-us{
+    color: white;
+    margin-right: 200px;
+}
+#button{
+    border-radius: 8px;
+    background-color: #f08804;
+    color: white;
+}
+footer{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: -3;
+}
+#box3{
+    /* visibility: hidden; */
+    /* position: absolute;
+    top: 10px; */
+    z-index: 5;
+}
+#box4{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
